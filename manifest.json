@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Time Management System",
+  "version": "1.0",
+  "description": "a timemanagement system that allows you see your trends overtime and be more productive.",
+  "homepage_url": "https://github.com/jo372/TimeManagementSystem",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_icon": "icons/tms_32.png",
+    "default_title": "TimeManagementSystem",
+    "default_popup": "popup/timemanagementsystem.html"
+  }
+}
