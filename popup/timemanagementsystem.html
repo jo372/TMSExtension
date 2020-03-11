@@ -3,9 +3,46 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="../ext/Skeleton-2.0.4/css/normalize.css">
+    <link rel="stylesheet" href="../ext/Skeleton-2.0.4/css/skeleton.css">
+    <style>
+        li {
+          padding: 10px;
+          cursor:pointer;
+          list-style: none;
+        }
+
+        li.list-section::after {
+          content: attr(data-number-of-tasks);
+          float:right;
+          margin-top:2px;
+        }
+
+        li.list-section:hover {
+          background-color: #222;
+          color:#fff;
+        }
+
+    </style>
   </head>
   <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="two columns">
+          <ul>
+            <li class="list-section" data-id="0" data-number-of-tasks="2">Upcoming Tasks</li>
+            <li class="list-section" data-id="1" data-number-of-tasks="3">Open Tasks</li>
+            <li class="list-section" data-id="2" data-number-of-tasks="4">Closed Tasks</li>
+          </ul>
+        </div>
+        <div class="ten columns" id="taskDetails">
+
+        </div>
+      </div>
+    </div>
+
     <!-- https://my.logomakr.com/give_credit/ -->
     <script src="../lib/Task.js"></script>
+    <script src="../lib/time-management-system.js"></script>
   </body>
 </html>
