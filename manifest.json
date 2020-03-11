@@ -6,12 +6,11 @@
   "homepage_url": "https://github.com/jo372/TimeManagementSystem",
   "permissions": [
     "activeTab",
-    "tabs",
-    "<all_urls>"
+    "tabs"
   ],
   "browser_action": {
     "default_icon": "icons/tms_32.png",
     "default_title": "TimeManagementSystem",
-    "default_popup": "popup/timemanagementsystem.html"
+    "default_popup": "popup/popup.html"
   }
 }
