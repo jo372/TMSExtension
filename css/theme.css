@@ -1,0 +1,80 @@
+html, body {
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+}
+li {
+  padding: 10px;
+  cursor:pointer;
+  list-style: none;
+}
+
+li.list-section::after {
+  content: attr(data-number-of-tasks);
+  float:right;
+  margin-top:2px;
+}
+
+li.list-section:hover {
+  background-color: #222;
+  color:#fff;
+}
+
+.noBorder {
+  border:0 !important;
+}
+.modal {
+  border:1px solid #ccc;
+  border-radius: 5px;
+  position:relative;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.modal .modal-header {
+  text-align:center;
+  background-color: #f2f2f2;
+  border:1px solid #dfdddd;
+}
+
+.modal .modal-header h4 {
+  margin:0;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.modal [data-name="menu-button-container"] {
+  position:absolute;
+  right :10px;
+  top:10px;
+}
+
+.modal .modal-button {
+  width:15px;
+  height:15px;
+  margin-left:10px;
+  border-radius: 100%;
+  display:inline-block;
+  transition:0.2s;
+  -o-transition:0.2s;
+  -moz-transition:0.2s;
+  -webkit-transition:0.2;
+  cursor:pointer;
+}
+
+
+.red {
+  background-color:#f95f57;
+  border:1px solid #b55755;
+}
+
+.yellow {
+  background-color:#fdc12f;
+  border:1px solid #d3a22c;
+}
+
+.green {
+  background-color:#2cca41;
+  border: 1px solid #38a03d;
+}
