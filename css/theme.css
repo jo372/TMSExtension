@@ -63,6 +63,14 @@ li.list-section:hover {
   cursor:pointer;
 }
 
+.modal-footer {
+  position: absolute;
+  bottom:0;
+  width:100%;
+  background-color:#f2f2f2;
+  border-top: #dfdddd;
+}
+
 
 .red {
   background-color:#f95f57;
