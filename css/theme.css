@@ -33,16 +33,16 @@ li.list-section:hover {
 }
 
 .modal .modal-header {
-  text-align:center;
   background-color: #f2f2f2;
   border:1px solid #dfdddd;
 }
 
 .modal .modal-header h4 {
-  margin:0;
   padding-top:10px;
-  padding-bottom:10px;
+  padding-left:10px;
+  padding-bottom:10p;
 }
+
 
 .modal [data-name="menu-button-container"] {
   position:absolute;
@@ -71,6 +71,10 @@ li.list-section:hover {
   border-top: #dfdddd;
 }
 
+.modal-body {
+  margin-top:20px;
+  margin-bottom:20px;
+}
 
 .red {
   background-color:#f95f57;
