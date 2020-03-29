@@ -90,3 +90,15 @@ li.list-section:hover {
   background-color:#2cca41;
   border: 1px solid #38a03d;
 }
+
+.fixed {
+  position:fixed;
+}
+
+button {
+  background-color:#fff;
+}
+
+#taskDetails {
+  margin-top:15px;
+}
