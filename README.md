@@ -6,3 +6,5 @@ to eventually create an AI which will tell the user how to improve their time wh
 ### TODO
 * Implement async functions which show watch time of the current select tab
 * Also need to think about what windows are current open.
+
+Project Status: On-Hold
